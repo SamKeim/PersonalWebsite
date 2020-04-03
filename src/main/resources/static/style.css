@@ -20,13 +20,10 @@
 	max-width: 42%;
 }
 
-/* Fixed height for header div for desktop, does not stick to mobile */
-/*@media screen and (min-width: 1024px) {
-    headerDiv{
-        height:2000px;
-    }
-}*/
-
+.centervert {
+	display: flex;
+	align-items: center;
+}
 /* Bootstrap timeline https://bootsnipp.com/snippets/xrKXW */
 ul.timeline {
     list-style-type: none;

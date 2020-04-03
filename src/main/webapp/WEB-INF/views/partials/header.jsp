@@ -2,15 +2,6 @@
 	pageEncoding="ISO-8859-1"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
-<!DOCTYPE html>
-<html>
-<meta charset="ISO-8859-1">
-<link
-	href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/sandstone/bootstrap.min.css"
-	rel="stylesheet"
-	integrity="sha384-ABdnjefqVzESm+f9z9hcqx2cvwvDNjfrwfW5Le9138qHCMGlNmWawyn/tt4jR4ba"
-	crossorigin="anonymous">
-	<script src="https://kit.fontawesome.com/496dae1c3c.js" crossorigin="anonymous"></script>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
 	<a class="navbar-brand" href="#">Sam Keim</a>
@@ -36,7 +27,3 @@
 		<a href="https://www.linkedin.com/in/samkeim" style="font-size: 2em; color: white;"><i class="fab fa-linkedin mx-2"></i></a>
 	</div>
 </nav>
-
-
-
-</html>
