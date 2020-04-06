@@ -52,3 +52,8 @@ function validateSubmit(){
 		name.className = "form-control";
 	}
 }
+
+function closeMessage(){
+	var message = document.getElementById("message");
+	message.style.display = "none";
+}

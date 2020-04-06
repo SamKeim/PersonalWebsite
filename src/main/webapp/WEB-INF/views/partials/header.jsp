@@ -27,3 +27,11 @@
 		<a href="https://www.linkedin.com/in/samkeim" style="font-size: 2em; color: white;"><i class="fab fa-linkedin mx-2"></i></a>
 	</div>
 </nav>
+<c:if test="${message ne null}">
+	<div class="container-fluid">
+		<div class="alert alert-dismissible alert-success" id="message">
+		  <button type="button" class="close" data-dismiss="alert" onclick="closeMessage()">&times;</button>
+		  <strong>Message sent!</strong> Thank you for reaching out.
+		</div>
+	</div>
+</c:if>

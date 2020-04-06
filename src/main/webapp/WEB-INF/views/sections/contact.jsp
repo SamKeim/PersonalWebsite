@@ -9,19 +9,19 @@
 		<div class="col">
 			<h3>Get in Touch</h3>
 				<div class="form-group" onsubmit="validateSubmit()">
-					<form action="post">
+					<form method="post">
 					<label for="name">Name</label>
-					<input type="text" class="form-control" id="name"
+					<input type="text" class="form-control" id="name" name="name"
 					placeholder="Enter name">
 					<div id="nameFeedback"></div>
 					
 					<label for="email">Email Address</label>
-					<input type="text" class="form-control" id="email"  onchange="validate()"
+					<input type="text" class="form-control" id="email"  onchange="validate()" name="email"
 					aria-describedby="emailHelp" placeholder="Enter email">
 					<div id="emailFeedback"></div>
 				    
 				    <label for="body">Message</label>
-   				  	<textarea class="form-control" id="message" rows="3" spellcheck="false"></textarea>
+   				  	<textarea class="form-control" id="message" rows="3" spellcheck="false" name="message"></textarea>
 					<button type="submit" class="btn btn-primary mx-2">Let's talk!</button>
 				</form>
 			</div>
